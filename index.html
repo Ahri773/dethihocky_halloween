@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="vi"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Đề kiểm tra Tiếng Anh 10 – Halloween</title>
+<style>
+:root{--bg:#faf7f2;--card:#fff;--tx:#1f1b16;--mu:#6b645b;--bd:#e4ddd2;--ac:#e8590c;--ok:#2b8a3e;--okb:#e6f4ea;--no:#c92a2a;--nob:#fdecec;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#171410;--card:#221e19;--tx:#f1ece4;--mu:#a39a8d;--bd:#383128;--ac:#ff922b;--ok:#69db7c;--okb:#14301b;--no:#ff8787;--nob:#3a1a1a;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#171410;--card:#221e19;--tx:#f1ece4;--mu:#a39a8d;--bd:#383128;--ac:#ff922b;--ok:#69db7c;--okb:#14301b;--no:#ff8787;--nob:#3a1a1a;color-scheme:dark}
+*{box-sizing:border-box}html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:640px;margin:0 auto;padding:16px}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:16px;margin-bottom:12px}
+h1{font-size:22px;margin:0 0 6px}h2{font-size:18px;margin:0 0 8px}
+.mu{color:var(--mu);font-size:14px}
+.top{display:flex;justify-content:space-between;align-items:center;font-size:14px;color:var(--mu);margin-bottom:6px}
+.bar{height:8px;background:var(--bd);border-radius:99px;overflow:hidden;margin-bottom:12px}
+.bar i{display:block;height:100%;background:var(--ac);width:100%;transition:width .25s linear}
+.tm{font-weight:700;color:var(--tx);font-variant-numeric:tabular-nums}.tm.low{color:var(--no)}
+.pass{font-size:15px;max-height:220px;overflow-y:auto;background:var(--bg);border-radius:10px;padding:10px;margin-bottom:12px;border:1px solid var(--bd)}
+.pass mark{background:var(--ac);color:#fff;border-radius:4px;padding:0 4px}
+.q{font-size:18px;margin:0 0 12px}
+.opt{display:block;width:100%;text-align:left;font:inherit;color:inherit;background:var(--card);border:1.5px solid var(--bd);border-radius:12px;padding:12px 14px;margin-bottom:8px;cursor:pointer;min-height:48px}
+.opt.ok{border-color:var(--ok);background:var(--okb)}.opt.no{border-color:var(--no);background:var(--nob)}
+.opt:disabled{cursor:default;opacity:1}
+input[type=text]{width:100%;font:inherit;padding:12px;border:1.5px solid var(--bd);border-radius:12px;background:var(--card);color:var(--tx)}
+.btn{font:inherit;font-weight:600;background:var(--ac);color:#fff;border:0;border-radius:12px;padding:12px 18px;cursor:pointer;min-height:48px;width:100%;margin-top:8px}
+.btn.sec{background:var(--card);color:var(--tx);border:1.5px solid var(--bd)}
+.fb{border-radius:10px;padding:10px 12px;margin-top:8px;font-size:15px}.fb.ok{background:var(--okb);color:var(--ok)}.fb.no{background:var(--nob);color:var(--no)}
+.pre{font-weight:700;margin-bottom:6px}
+.big{font-size:48px;font-weight:800;color:var(--ac);line-height:1.1}
+.row{display:flex;align-items:center;gap:8px;margin:8px 0;font-size:14px}.row .n{flex:0 0 46%}.row .b{flex:1;height:10px;background:var(--bd);border-radius:99px;overflow:hidden}.row .b i{display:block;height:100%;background:var(--no)}.row .c{flex:0 0 38px;text-align:right;color:var(--mu)}
+select{font:inherit;padding:8px;border-radius:10px;border:1.5px solid var(--bd);background:var(--card);color:var(--tx)}
+details{border-top:1px solid var(--bd);padding:8px 0}summary{cursor:pointer}
+.hide{display:none}
+</style></head><body><main id="app"></main>
+<script>
+const P1=`Halloween is celebrated on October 31st in many Western countries. Its origins go back to an ancient festival called Samhain. Today, however, it is mainly a time for fun. Children (21) ______ costumes of ghosts, witches and monsters and go from door to door asking for sweets. This custom is called “trick or treat”. Houses are (22) ______ with carved pumpkins called jack-o’-lanterns, whose orange light is said to keep bad spirits away. Many people also enjoy (23) ______ scary stories or watching horror films. In some towns, there are parades and competitions for the best costume. Although Halloween is not an official holiday, it has become one of the most (24) ______ celebrations of the year. Shops sell decorations months in advance, and schools often organise parties for their students. (25) ______ the fun, it is important to stay safe: children should always go out with an adult and never enter a stranger’s house. With a little (26) ______, everyone can enjoy a happy and safe Halloween.`;
+const P2=`<p>Halloween is one of the oldest celebrations in the world, and it takes place on the night of October 31st. Long ago, people believed that on this night the spirits of the dead returned to the earth. To protect themselves, they wore frightening masks and lit big fires outside their homes. Today, most people no longer believe in these spirits, but many of the old customs still survive.</p><p>In the United States, Canada and Britain, Halloween is a very popular family event. Weeks before the holiday, people decorate their houses with orange and black colours, spider webs and paper bats. The pumpkin is the symbol of Halloween; it is carved into a face and a candle is put inside to make a jack-o’-lantern.</p><p>For children, the best part of the night is “trick or treat”. Dressed as witches, skeletons or film characters, they knock on their neighbours’ doors and ask, “Trick or treat?” Their neighbours usually give them sweets, chocolate or small toys. Many schools and community centres also hold costume parties, where prizes are given for the scariest or the most creative costume.</p><p>In recent years, some adults have complained that Halloween has become too commercial. Shops sell expensive costumes and decorations, and the streets are often full of rubbish the next morning. However, for most children, it is still a night of fun, friendship and imagination.</p>`;
+const S=["Phần 1 · Ngữ âm – Trọng âm","Phần 2 · Từ vựng – Ngữ pháp","Phần 3A · Điền từ vào đoạn văn","Phần 3B · Đọc hiểu","Phần 4 · Viết lại câu"];
+const NP="Ngữ âm",ST="Trọng âm",TS="Thì động từ",PV="Câu bị động",RC="Mệnh đề quan hệ",GE="V-ing / to V",WF="Từ loại",RD="Đọc: thông tin chi tiết";
+const Q=[];
+const q=(sec,tag,text,o,a,p)=>Q.push({s:sec,t:tag,q:text,o:o.split("|"),a:"ABCD".indexOf(a),p});
+q(0,NP,"Chọn từ có phần gạch chân phát âm khác.","m<u>a</u>sk|f<u>a</u>ce|l<u>a</u>te|g<u>a</u>me","A");
+q(0,NP,"Chọn từ có phần gạch chân phát âm khác.","tr<u>ea</u>t|sw<u>ea</u>t|br<u>ea</u>d|h<u>ea</u>d","A");
+q(0,NP,"Chọn từ có phần gạch chân phát âm khác.","gh<u>o</u>st|m<u>o</u>st|p<u>o</u>st|c<u>o</u>st","D");
+q(0,ST,"Chọn từ có trọng âm chính khác.","costume|pumpkin|lantern|parade","D");
+q(0,ST,"Chọn từ có trọng âm chính khác.","decoration|celebration|competition|festival","D");
+q(0,ST,"Chọn từ có trọng âm chính khác.","scary|ancient|begin|famous","C");
+q(1,TS,"People in many countries ______ Halloween on October 31st every year.","celebrate|celebrated|are celebrating|have celebrated","A");
+q(1,TS,"Look! The children ______ scary costumes for the school parade.","wear|are wearing|wore|have worn","B");
+q(1,TS,"Jack ______ his pumpkin lantern before the party started.","carves|has carved|had carved|was carving","C");
+q(1,"So sánh","This year’s Halloween party is ______ than last year’s.","exciting|more exciting|most exciting|the most exciting","B");
+q(1,PV,"Thousands of houses ______ with orange lights every October.","decorate|are decorated|decorating|have decorated","B");
+q(1,RC,"The girl ______ costume won the prize is my cousin.","who|which|whose|whom","C");
+q(1,GE,"My brother enjoys ______ ghost stories at night.","read|reading|to read|reads","B");
+q(1,"Used to","We ______ go trick-or-treating when we were kids, but now we don’t.","use to|used to|are used to|get used to","B");
+q(1,"Động từ khuyết thiếu","You ______ wear a mask if you don’t want to; it’s not compulsory.","mustn’t|shouldn’t|don’t have to|can’t","C");
+q(1,"Câu điều kiện","If you ______ a pumpkin, you can make a lantern from it.","have|had|will have|would have","A");
+q(1,"Giới từ","Halloween is celebrated ______ the night of October 31st.","in|at|on|for","C");
+q(1,"Câu tường thuật","She said that she ______ to the Halloween party the next day.","goes|went|will go|would go","D");
+q(1,"So / such","The parade was ______ exciting that everyone stayed until midnight.","such|so|too|very","B");
+q(1,WF,"The ______ of the festival attracted thousands of visitors.","celebrate|celebration|celebrated|celebratory","B");
+q(2,"Từ vựng / cụm từ","Chọn từ điền vào chỗ trống (21).","wear|take|put|dress","A",1);
+q(2,PV,"Chọn từ điền vào chỗ trống (22).","decorated|decoration|decorating|decorate","A",1);
+q(2,GE,"Chọn từ điền vào chỗ trống (23).","tell|telling|to tell|told","B",1);
+q(2,WF,"Chọn từ điền vào chỗ trống (24).","popular|popularity|popularly|popularise","A",1);
+q(2,"Liên từ / giới từ","Chọn từ điền vào chỗ trống (25).","Despite|Although|However|Because","A",1);
+q(2,WF,"Chọn từ điền vào chỗ trống (26).","careless|care|caring|carefully","B",1);
+q(3,"Đọc: ý chính","What is the main idea of the passage?","The history of Halloween and how it is celebrated today.|Why Halloween is a dangerous night for children.|How to make a jack-o’-lantern at home.|The commercial side of Halloween only.","A",2);
+q(3,RD,"According to the passage, what did people long ago believe about October 31st?","It was the last day of the year.|The spirits of the dead returned to the earth.|The sun disappeared forever.|It was a day for family parties.","B",2);
+q(3,RD,"Why did people long ago wear frightening masks?","To look more beautiful.|To protect themselves.|To frighten their own children.|To sell them at the market.","B",2);
+q(3,RD,"What is the symbol of Halloween?","the spider web|the paper bat|the pumpkin|the candle","C",2);
+q(3,"Đọc: từ vựng","The word “carved” in paragraph 2 is closest in meaning to ______.","cut|painted|bought|grown","A",2);
+q(3,RD,"Children say “Trick or treat?” when they ______.","enter their neighbours’ houses|knock on their neighbours’ doors|go to school in the morning|watch horror films at home","B",2);
+q(3,RD,"What have some adults complained about in recent years?","Children are too noisy at night.|Halloween has become too commercial.|Sweets are not good for children’s health.|The parades are too long.","B",2);
+q(3,"Đọc: NOT mentioned","Which of the following is NOT mentioned in the passage?","costume parties held at schools|houses decorated in orange and black|people lighting big fires today|prizes for the scariest costume","C",2);
+const W=(tag,text,pre,ok)=>Q.push({s:4,t:tag,q:text,w:{pre,ok}});
+W("Viết: bị động","People celebrate Halloween on October 31st.","Halloween",["is celebrated on October 31st","is celebrated on October 31st by people"]);
+W("Viết: tường thuật","“I will visit the haunted house tomorrow,” she said.","She said that",["she would visit the haunted house the next day","she would visit the haunted house the following day"]);
+const hm=["had money","had enough money"],cb=["could buy","would be able to buy","would buy","might buy"];
+W("Viết: câu điều kiện","The children don’t have money, so they can’t buy costumes.","If the children",hm.flatMap(a=>cb.map(b=>a+" "+b+" costumes")));
+W("Viết: mệnh đề quan hệ","This is the house. It was built in 1890.","This is the house",["which was built in 1890","that was built in 1890","built in 1890"]);
+W("Viết: trạng từ","She is a very careful driver.","She drives",["very carefully","carefully"]);
+W("Viết: hiện tại hoàn thành","I last saw a Halloween parade two years ago.","I haven’t",["seen a Halloween parade for two years","seen a Halloween parade for 2 years"]);
+const norm=s=>s.toLowerCase().replace(/[’‘`]/g,"'").replace(/[^\p{L}\p{N}\s]/gu,"").replace(/\s+/g," ").trim();
+const $=document.getElementById("app");let cfg=45,i=0,res=[],left=0,tmr=null,done=false;
+function start(){i=0;res=[];show()}
+function home(){$.innerHTML=`<div class="card"><h1>🎃 Đề kiểm tra Tiếng Anh 10</h1><p class="mu">Học kì I · 40 câu · mỗi câu 0,25 điểm · thang 10. Mỗi câu có đồng hồ đếm ngược, hết giờ sẽ tính là sai và hiện đáp án. Phần viết lại câu không cần đúng dấu câu hay viết hoa.</p>
+<p>Thời gian mỗi câu: <select id="t"><option value="20">20 giây</option><option value="30">30 giây</option><option value="45" selected>45 giây</option><option value="60">60 giây</option><option value="90">90 giây</option></select></p><p class="mu">Câu đọc hiểu và viết lại câu được nhân đôi thời gian.</p>
+<button class="btn" onclick="cfg=+document.getElementById('t').value;start()">Bắt đầu làm bài</button></div>`}
+function limit(x){return x.p===2||x.w?cfg*2:cfg}
+function show(){clearInterval(tmr);if(i>=Q.length)return fin();const x=Q[i];left=limit(x);done=false;
+let h=`<div class="top"><span>Câu ${i+1}/40 · ${S[x.s]}</span><span class="tm" id="tm"></span></div><div class="bar"><i id="bf"></i></div><div class="card">`;
+if(x.p===1)h+=`<div class="pass">${P1.replace(/\((\d+)\) ______/g,(m,n)=>+n===i+1?`<mark>${n}</mark>`:`<b>(${n}) ____</b>`)}</div>`;
+if(x.p===2)h+=`<div class="pass">${P2}</div>`;
+h+=`<p class="q">${x.w?"<b>Viết lại câu</b> sao cho nghĩa không đổi:<br>"+x.q:x.q}</p>`;
+if(x.o)h+=x.o.map((o,k)=>`<button class="opt" onclick="pick(${k})"><b>${"ABCD"[k]}.</b> ${o}</button>`).join("");
+else h+=`<div class="pre">${x.w.pre} …</div><input type="text" id="wi" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" placeholder="Gõ phần còn lại của câu"><button class="btn" onclick="sub()">Nộp câu trả lời</button>`;
+h+=`<div id="fb"></div><button class="btn hide" id="nx" onclick="i++;show()">${i==39?"Xem kết quả":"Câu tiếp theo →"}</button></div>`;
+$.innerHTML=h;tick();tmr=setInterval(()=>{left--;tick();if(left<=0)end(null,true)},1000);window.scrollTo(0,0)}
+function tick(){const x=Q[i],t=document.getElementById("tm"),b=document.getElementById("bf");if(!t)return;t.textContent="⏱ "+Math.max(left,0)+"s";t.className="tm"+(left<=8?" low":"");b.style.width=Math.max(left,0)/limit(x)*100+"%"}
+function pick(k){end(k,false)}
+function sub(){end(document.getElementById("wi").value,false)}
+function end(ans,timeout){if(done)return;done=true;clearInterval(tmr);const x=Q[i];let ok=false,shown="",corr="";
+if(x.o){ok=ans===x.a;corr="ABCD"[x.a]+". "+x.o[x.a];shown=ans==null?"(bỏ trống)":"ABCD"[ans]+". "+x.o[ans];
+document.querySelectorAll(".opt").forEach((b,k)=>{b.disabled=true;if(k===x.a)b.classList.add("ok");else if(k===ans)b.classList.add("no")})}
+else{const raw=(ans||"").trim();shown=raw||"(bỏ trống)";const np=norm(x.w.pre);let f=norm(raw);if(!f.startsWith(np))f=np+" "+f;
+ok=!!raw&&x.w.ok.some(o=>norm(x.w.pre+" "+o)===f);corr=x.w.pre+" "+x.w.ok[0];
+const w=document.getElementById("wi");w.disabled=true;w.nextElementSibling.classList.add("hide")}
+res.push({i,ok,shown,corr,to:timeout});
+document.getElementById("fb").innerHTML=`<div class="fb ${ok?"ok":"no"}">${ok?"✓ Chính xác!":(timeout?"⏰ Hết giờ. ":"✗ Chưa đúng. ")+(ok?"":"Đáp án: <b>"+corr+"</b>")}</div>`;
+document.getElementById("nx").classList.remove("hide")}
+function fin(){const sc=res.filter(r=>r.ok).length,pt=sc*0.25,m={};
+res.forEach(r=>{const t=Q[r.i].t;m[t]=m[t]||{n:0,w:0};m[t].n++;if(!r.ok)m[t].w++});
+const rows=Object.entries(m).filter(e=>e[1].w).sort((a,b)=>b[1].w/b[1].n-a[1].w/a[1].n||b[1].w-a[1].w);
+const wrong=res.filter(r=>!r.ok);
+let h=`<div class="card" style="text-align:center"><div class="mu">Điểm của bạn</div><div class="big">${pt.toFixed(2).replace(".",",")}/10</div><p>Đúng ${sc}/40 câu · Sai ${40-sc} câu${res.some(r=>r.to)?" · Hết giờ "+res.filter(r=>r.to).length+" câu":""}</p></div>`;
+h+=`<div class="card"><h2>📊 Dạng câu hay sai</h2>`;
+h+=rows.length?rows.map(([t,v])=>`<div class="row"><span class="n">${t}</span><span class="b"><i style="width:${v.w/v.n*100}%"></i></span><span class="c">${v.w}/${v.n}</span></div>`).join("")+`<p class="mu">Xếp theo tỉ lệ sai (số câu sai/số câu của dạng đó).</p>`:`<p>Bạn làm đúng hết, không có dạng nào sai! 🎉</p>`;
+h+=`</div>`;
+if(wrong.length)h+=`<div class="card"><h2>Xem lại câu sai</h2>`+wrong.map(r=>{const x=Q[r.i];return `<details><summary><b>Câu ${r.i+1}</b> · ${x.t}</summary><p>${x.q}</p><p>Bạn chọn: ${r.shown}</p><p style="color:var(--ok)">Đáp án: <b>${r.corr}</b></p></details>`}).join("")+`</div>`;
+h+=`<button class="btn" onclick="start()">Làm lại</button><button class="btn sec" onclick="home()">Về màn hình đầu</button>`;
+$.innerHTML=h;window.scrollTo(0,0)}
+home();
+</script></body></html>
